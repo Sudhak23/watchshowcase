@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Smart watch</title>
 </head>
-<body>
+<body onload="timer()">
     <header>
 
         <img class="logo" src="images/logo.svg" alt="">
@@ -18,7 +18,7 @@
         <div id="avatar">
 
             <img id="myimage" src="https://i.imgur.com/iOeUBV7.png" alt="watch-image">
-                <p id="time"></p>
+            <p id="time"></p>
           
 
             <img id="heart" src="images/heart.png" alt="heart-image">
@@ -33,12 +33,12 @@
             </p>
             <h3 class="section">Select Color</h3>
 
-            <ul class="colors">
-                <li class="black" onclick="black()"></li>
-                <li class="red" onclick="red()"></li>
-                <li class="blue" onclick="blue()"></li>
-                <li class="pink" onclick="pink()"></li>
-                <li class="purple" onclick="purple()"></li>
+            <ul class="colors" >
+                <li class=" black colorsbtn"  data-image="https://i.imgur.com/iOeUBV7.png"></li>
+                <li class="red colorsbtn"  data-image="https://i.imgur.com/PTgQlim.png"></li>
+                <li class="blue colorsbtn" data-image="https://i.imgur.com/Mplj1YR.png" ></li>
+                <li class="pink colorsbtn" data-image="https://i.imgur.com/xSIK4M8.png"></li>
+                <li class="purple colorsbtn" data-image="https://i.imgur.com/Zygu7I3.png"></li>
             </ul>
 
             <h3 class="section">Features</h3>

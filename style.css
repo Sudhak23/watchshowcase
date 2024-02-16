@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    /*font-family: 'Montserrat','Source Sansa Pro';*/
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
@@ -38,18 +37,19 @@ header .logo{
 }
 #article #avatar img{
     position: absolute;
-    transform: translateX(-12%);
+    transform: translateX(-9%);
     width: 128%;
     height: 100%;
     z-index: -1;
 }
 
-#article #avatar p{
+#time{
     position: absolute;
-    top: 45%;
-    left: 30%;
+    top: 44%;
+    left: 34%;
     letter-spacing: 4px;
-    font-weight: 600;
+    font-weight: 800;
+    font-size: larger;
     text-align: center;
     color: #fff;
 }
